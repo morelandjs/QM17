@@ -15,23 +15,20 @@ from matplotlib.patches import Circle
 
 aspect = 1/1.618
 resolution = 72.27
-paperwidth = 364.19536/resolution
-paperheight = 273.14662/resolution
-textwidth = 307.28987/resolution
-textheight = 269.14662/resolution
-columnwidth = 0.5*textwidth
-textiny, texsmall, texnormal = 5.6, 6.475, 7.0
+columnwidth = 206.79/resolution
+textwidth = 428.72/resolution
+textiny, texsmall, texnormal = 8.0, 9.25, 10.0
 offblack = '#262626'
 
 plt.rcdefaults()
 plt.rcParams.update({
-    'font.family': 'sans-serif',
-    'font.sans-serif': ['Roboto'],
+    'font.family': 'serif',
+    'font.serif': ['DejaVu Serif'],
     'mathtext.fontset': 'custom',
     'mathtext.default': 'it',
-    'mathtext.rm': 'sans',
-    'mathtext.it': 'sans:italic:medium',
-    'mathtext.cal': 'sans', 
+    'mathtext.rm': 'serif',
+    'mathtext.it': 'serif:italic:medium',
+    'mathtext.cal': 'serif', 
     'font.size': texsmall,
     'legend.fontsize': texsmall,
     'axes.labelsize': texsmall,
@@ -65,7 +62,7 @@ plt.rcParams.update({
     'legend.scatterpoints': 1,
     'legend.frameon': False,
     'image.interpolation': 'none',
-    'pdf.fonttype': 42,
+    'pdf.fonttype': 3,
 })
 
 plot_functions = {}
@@ -142,78 +139,14 @@ def set_trento_label(legend, i):
     t.set_usetex(True)
     t.set_y(-.18*t.get_size())
     return legend
-
-@plot
-def title_page():
-    fig, axes = plt.subplots(nrows=1, ncols=5,
-            figsize=(.8*textwidth, textwidth/5))
-    files = glob.glob('data/trento/*')
-
-    cdict = plt.cm.Blues._segmentdata.copy()
-    cdict['red'][0] = (0, 1, 1)
-    cdict['blue'][0] = (0, 1, 1)
-    cdict['green'][0] = (0, 1, 1)
-    my_cmap = LinearSegmentedColormap('Blues2', cdict)
-
-    for ax, fn in zip(axes, sorted(files)):
-        with h5py.File(fn, 'r') as f:
-            dens = f['event_0']
-            ax.imshow(dens, cmap=my_cmap)
-            ax.axis('off')
-    finish()
-
-@plot
-def yields(): 
-    import seaborn as sns
-    fig = plt.figure(figsize=(textwidth, aspect*textwidth))
-
-    # generate mock flow data
-    M = 10000
-    vn = .1, .05, .02, .01
-    sampler = flow.Sampler(*vn)
-    phi = sampler.sample(M)
-
-    plt.hist(phi, bins=50, range=(-np.pi, np.pi),
-            histtype='stepfilled', normed=True, alpha=.5)
-    x = np.linspace(-np.pi, np.pi, 1000)
-    plt.plot(x, sampler.pdf(x), color='.3')
-
-    plt.xlim(-np.pi, np.pi)
-    plt.ylim(ymin=0)
-    plt.xlabel(r'$\phi$')
-    plt.ylabel(r'$dN/d\phi$')
-    finish()
-
-@plot
-def harmonics(): 
-    import seaborn as sns
-    fig = plt.figure(figsize=(textwidth, aspect*textwidth))
-
-    # generate mock flow data
-    v2, v3, v4, v5 = .1, .05, .02, .01
-    x = np.linspace(-np.pi, np.pi, 1000)
-    plt.plot(x, v2*np.cos(2*x)) 
-    plt.plot(x, v3*np.cos(3*x))
-    plt.plot(x, v4*np.cos(4*x))
-    plt.plot(x, v5*np.cos(5*x))
-    plt.plot(x, v2*np.cos(2*x) +
-                v3*np.cos(3*x) +
-                v4*np.cos(4*x) +
-                v5*np.cos(5*x),
-                color = '.3')
-
-    plt.xlim(-np.pi, np.pi)
-    plt.ylim(-.2, .2)
-    plt.xlabel(r'$\Delta \phi$')
-    plt.ylabel(r'$C(\Delta \phi)$')
     finish()
 
 
 def thickness_substructure(sys='Pb'):
     fig, axes = plt.subplots(
-            nrows=3, ncols=3,
+            nrows=2, ncols=2,
             sharex=True, sharey=True,
-            figsize=(.8*textwidth, .8*textwidth)
+            figsize=(0.4*textwidth, 0.4*textwidth)
             )
 
     cdict = plt.cm.Blues._segmentdata.copy()
@@ -222,8 +155,11 @@ def thickness_substructure(sys='Pb'):
     cdict['green'][0] = (0, 1, 1)
     my_cmap = LinearSegmentedColormap('Blues2', cdict)
 
-    npartons = [3, 5, 20]
-    parton_width = [0.2, 0.3, 0.5]
+    npartons = [3, 20]
+    parton_width = [0.2, 0.3]
+
+    xymax = 8 if sys == 'Pb' else 1.5
+    dim = [-xymax, xymax, -xymax, xymax]
 
     for row, v in zip(axes, parton_width):
         for ax, m in zip(row, npartons):
@@ -231,18 +167,22 @@ def thickness_substructure(sys='Pb'):
             fn = 'events_{}_{}.hdf'.format(v, m)
             with h5py.File(path + fn, 'r') as f:
                 dens = f['event_0'] 
-                ax.imshow(dens, cmap=my_cmap)
-                ax.set_xticks([])
-                ax.set_yticks([])
-                if ax.is_last_row():
-                    ax.set_xlabel(m, labelpad=5, fontsize=14)
-                if ax.is_first_col() and sys is 'Pb':
-                    ax.set_ylabel(v, labelpad=5, fontsize=14)
-                if ax.is_last_col() and sys is 'p':
-                    ax.set_ylabel(v, rotation=-90, labelpad=15,
-                            fontsize=14)
-                    ax.yaxis.set_label_position('right')
-    finish(h_pad=0, w_pad=0, pad=.5)
+                ax.imshow(dens, extent=dim, cmap=my_cmap)
+                if ax.is_first_row():
+                    ax.annotate(
+                            '{} partons'.format(m), xy=(0.5, 1.0),
+                            ha='center', va='bottom', xycoords='axes fraction',
+                            fontsize=textiny)
+                if ax.is_last_col():
+                    ax.annotate(
+                            'width {} fm'.format(v), xy=(1.05, 0.5),
+                            ha='left', va='center', xycoords='axes fraction',
+                            rotation=-90, fontsize=textiny)
+
+    fig.text(0.53, 0.01, '$x$ [fm]', ha='center', fontsize=textiny)
+    fig.text(0.01, 0.53, '$y$ [fm]', va='center', fontsize=textiny, rotation=90)
+    rect = [0.06, 0.06, 0.92, 0.94]
+    finish(h_pad=0, w_pad=0, rect=rect)
 
 @plot
 def Pb_thickness():
@@ -254,7 +194,7 @@ def p_thickness():
 
 def proton_shapes(partons=False):
     fig, axes = plt.subplots(nrows=1, ncols=3,
-            figsize=(textwidth, textwidth/2.6))
+            figsize=(textwidth, 0.38*textwidth))
 
     cdict = plt.cm.Blues._segmentdata.copy()
     cdict['red'][0] = (0, 1, 1)
@@ -325,7 +265,7 @@ def posterior_protons():
 def Pb_thick():
     fig, axes = plt.subplots(nrows=1, ncols=2,
             sharex=True, sharey=True,
-            figsize=(.9*textwidth, 0.4*textwidth))
+            figsize=(textwidth, 0.5*textwidth))
 
     cdict = plt.cm.Blues._segmentdata.copy()
     cdict['red'][0] = (0, 1, 1)
@@ -352,7 +292,7 @@ def Pb_thick():
 def p_thick():
     fig, axes = plt.subplots(nrows=1, ncols=2,
             sharex=True, sharey=True,
-            figsize=(.9*textwidth, 0.4*textwidth))
+            figsize=(textwidth, 0.5*textwidth))
 
     cdict = plt.cm.Blues._segmentdata.copy()
     cdict['red'][0] = (0, 1, 1)

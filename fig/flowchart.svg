@@ -1,0 +1,512 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="20cm"
+   height="15cm"
+   viewBox="0 0 200 150"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.0 r"
+   sodipodi:docname="flowchart.svg">
+  <defs
+     id="defs2">
+    <marker
+       inkscape:stockid="TriangleOutL"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="marker1422"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         id="path1420"
+         d="M 5.77,0.0 L -2.88,5.0 L -2.88,-5.0 L 5.77,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         transform="scale(0.8)" />
+    </marker>
+    <marker
+       inkscape:stockid="TriangleOutL"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="marker1046"
+       style="overflow:visible"
+       inkscape:isstock="true"
+       inkscape:collect="always">
+      <path
+         id="path1044"
+         d="M 5.77,0.0 L -2.88,5.0 L -2.88,-5.0 L 5.77,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         transform="scale(0.8)" />
+    </marker>
+    <marker
+       inkscape:stockid="TriangleOutL"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="marker1000"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         id="path998"
+         d="M 5.77,0.0 L -2.88,5.0 L -2.88,-5.0 L 5.77,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         transform="scale(0.8)" />
+    </marker>
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible"
+       id="marker958"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="TriangleOutL"
+       inkscape:collect="always">
+      <path
+         transform="scale(0.8)"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         d="M 5.77,0.0 L -2.88,5.0 L -2.88,-5.0 L 5.77,0.0 z "
+         id="path956" />
+    </marker>
+    <marker
+       inkscape:stockid="TriangleOutL"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="TriangleOutL"
+       style="overflow:visible"
+       inkscape:isstock="true"
+       inkscape:collect="always">
+      <path
+         id="path5138"
+         d="M 5.77,0.0 L -2.88,5.0 L -2.88,-5.0 L 5.77,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         transform="scale(0.8)" />
+    </marker>
+    <marker
+       inkscape:stockid="CurveIn"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="CurveIn"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         id="path5180"
+         d="M 4.6254930,-5.0456926 C 1.8654930,-5.0456926 -0.37450702,-2.8056926 -0.37450702,-0.045692580 C -0.37450702,2.7143074 1.8654930,4.9543074 4.6254930,4.9543074"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;fill:none;stroke-opacity:1"
+         transform="scale(0.6)" />
+    </marker>
+    <inkscape:path-effect
+       effect="bspline"
+       id="path-effect4189"
+       is_visible="true"
+       weight="33.333333"
+       steps="2"
+       helper_size="0"
+       apply_no_weight="true"
+       apply_with_weight="true"
+       only_selected="false" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.979899"
+     inkscape:cx="496.81227"
+     inkscape:cy="295.06367"
+     inkscape:document-units="mm"
+     inkscape:current-layer="g4161"
+     showgrid="false"
+     units="cm"
+     inkscape:window-width="2560"
+     inkscape:window-height="1600"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-146.99998)">
+    <g
+       id="g4111"
+       transform="translate(-1.4071276,-0.9936144)">
+      <rect
+         y="148.07742"
+         x="1.490949"
+         height="29.978212"
+         width="57.907879"
+         id="rect101"
+         style="opacity:0.61799999;fill:#e9afaf;fill-opacity:0.5073314;stroke:#000000;stroke-width:0.16764288;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+      <flowRoot
+         transform="matrix(0.26458333,0,0,0.26458333,-4.2333335,140.61607)"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.66666603px;line-height:26.66666794px;font-family:Lato;-inkscape-font-specification:Lato;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         id="flowRoot10"
+         xml:space="preserve"><flowRegion
+           style="font-size:18.66666603px;line-height:26.66666794px"
+           id="flowRegion12"><rect
+             style="font-size:18.66666603px;line-height:26.66666794px"
+             y="36.342838"
+             x="28.571428"
+             height="172.88177"
+             width="228.35968"
+             id="rect14" /></flowRegion><flowPara
+           id="flowPara54"
+           style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:24px;line-height:0px;font-family:'CMU Bright';-inkscape-font-specification:'CMU Bright Semi-Bold'">Model Parameters</flowPara><flowPara
+           id="flowPara74"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21.33333397px;line-height:0px;font-family:'CMU Bright';-inkscape-font-specification:'CMU Bright'">   ▪ e.g. nucleon width,</flowPara><flowPara
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21.33333397px;line-height:0px;font-family:'CMU Bright';-inkscape-font-specification:'CMU Bright'"
+           id="flowPara146">    parton width, etc</flowPara><flowPara
+           id="flowPara22"
+           style="font-size:18.66666603px;line-height:26.66666794px" /></flowRoot>    </g>
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot30"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.5px;line-height:25px;font-family:Lato;-inkscape-font-specification:Lato;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       transform="matrix(0.26458333,0,0,0.26458333,0,200.63875)"><flowRegion
+         id="flowRegion32"><rect
+           id="rect34"
+           width="8.2142859"
+           height="15.714286"
+           x="33.214287"
+           y="42.414268" /></flowRegion><flowPara
+         id="flowPara36" /></flowRoot>    <g
+       id="g4161"
+       transform="translate(3.7684027,-3.0870262)">
+      <rect
+         y="150.19931"
+         x="117.68864"
+         height="39.735188"
+         width="78.430641"
+         id="rect101-4"
+         style="opacity:0.61799999;fill:#cdde87;fill-opacity:0.5073314;stroke:#000000;stroke-width:0.2246177;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+      <flowRoot
+         transform="matrix(0.26458333,0,0,0.26458333,112.34557,142.76858)"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.66666603px;line-height:26.66666794px;font-family:Lato;-inkscape-font-specification:Lato;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         id="flowRoot10-7"
+         xml:space="preserve"><flowRegion
+           style="font-size:18.66666603px;line-height:26.66666794px"
+           id="flowRegion12-2"><rect
+             style="font-size:18.66666603px;line-height:26.66666794px"
+             y="36.342838"
+             x="28.571428"
+             height="159.74979"
+             width="327.35464"
+             id="rect14-1" /></flowRegion><flowPara
+           id="flowPara54-3"
+           style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:24px;line-height:0px;font-family:'CMU Bright';-inkscape-font-specification:'CMU Bright Semi-Bold'">Physics Model</flowPara><flowPara
+           id="flowPara74-9"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21.33333397px;line-height:0px;font-family:'CMU Bright';-inkscape-font-specification:'CMU Bright'">   ▪ <flowSpan
+   id="flowSpan4629"
+   style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:21.33333397px;font-family:'CMU Bright';-inkscape-font-specification:'CMU Bright Semi-Bold'">T</flowSpan><flowSpan
+   id="flowSpan4623"
+   style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:21.33333397px;font-family:'CMU Bright';-inkscape-font-specification:'CMU Bright Semi-Bold';baseline-shift:sub">R</flowSpan><flowSpan
+   id="flowSpan4631"
+   style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:21.33333397px;font-family:'CMU Bright';-inkscape-font-specification:'CMU Bright Semi-Bold'">ENTo </flowSpan><flowSpan
+   style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:21.33333397px;font-family:'CMU Bright';-inkscape-font-specification:'CMU Bright Medium'"
+   id="flowSpan4649">initial conditions</flowSpan></flowPara><flowPara
+           id="flowPara4653"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21.33333397px;line-height:0px;font-family:'CMU Bright';-inkscape-font-specification:'CMU Bright'">     with partonic substructure</flowPara><flowPara
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21.33333397px;line-height:0px;font-family:'CMU Bright';-inkscape-font-specification:'CMU Bright'"
+           id="flowPara126">   ▪ <flowSpan
+   style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-family:'CMU Bright';-inkscape-font-specification:'CMU Bright Semi-Bold'"
+   id="flowSpan132">iEBE VISHNU</flowSpan> hybrid model</flowPara><flowPara
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21.33333397px;line-height:0px;font-family:'CMU Bright';-inkscape-font-specification:'CMU Bright'"
+           id="flowPara134">    <flowSpan
+   style="font-size:17.33333355px;-inkscape-font-specification:'CMU Bright Semi-Bold';font-family:'CMU Bright';font-weight:600;font-style:normal;font-stretch:normal;font-variant:normal"
+   id="flowSpan136">CPC 199, 61-85 [1409.8164]</flowSpan></flowPara><flowPara
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.33333355px;line-height:0px;font-family:'CMU Bright';-inkscape-font-specification:'CMU Bright'"
+           id="flowPara122" /><flowPara
+           id="flowPara4651"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:24.00000191px;line-height:0px;font-family:'CMU Bright';-inkscape-font-specification:'CMU Bright'" /><flowPara
+           id="flowPara22-7"
+           style="font-size:18.66666603px;line-height:26.66666794px" /></flowRoot>    </g>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.30729151px;line-height:6.61458302px;font-family:Lato;-inkscape-font-specification:Lato;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="25.657875"
+       y="164.16702"
+       id="text4687"><tspan
+         sodipodi:role="line"
+         id="tspan4685"
+         x="25.657875"
+         y="168.48303"
+         style="stroke-width:0.26458332px" /></text>
+    <g
+       id="g4123"
+       transform="translate(-5.9777307,-6.879167)">
+      <rect
+         y="207.21242"
+         x="6.0636392"
+         height="25.831228"
+         width="70.592644"
+         id="rect101-4-1"
+         style="opacity:0.61799999;fill:#cdde87;fill-opacity:0.5073314;stroke:#000000;stroke-width:0.17181684;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+      <flowRoot
+         transform="matrix(0.26458333,0,0,0.26458333,0.87474489,200.0798)"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.66666603px;line-height:26.66666794px;font-family:Lato;-inkscape-font-specification:Lato;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         id="flowRoot10-7-3"
+         xml:space="preserve"><flowRegion
+           style="font-size:18.66666603px;line-height:26.66666794px"
+           id="flowRegion12-2-6"><rect
+             style="font-size:18.66666603px;line-height:26.66666794px"
+             y="36.342838"
+             x="28.571428"
+             height="159.74979"
+             width="327.35464"
+             id="rect14-1-7" /></flowRegion><flowPara
+           id="flowPara54-3-5"
+           style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:24px;line-height:0px;font-family:'CMU Bright';-inkscape-font-specification:'CMU Bright Semi-Bold'">Experimental Data</flowPara><flowPara
+           id="flowPara4653-1"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21.33333397px;line-height:0px;font-family:'CMU Bright';-inkscape-font-specification:'CMU Bright'">   ▪ ALICE p+Pb 5.02 TeV</flowPara><flowPara
+           id="flowPara223"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21.33333397px;line-height:0px;font-family:'CMU Bright';-inkscape-font-specification:'CMU Bright'">    yields and correlations</flowPara><flowPara
+           id="flowPara221"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:24.00000191px;line-height:0px;font-family:'CMU Bright';-inkscape-font-specification:'CMU Bright'" /><flowPara
+           id="flowPara4651-2"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:24.00000191px;line-height:0px;font-family:'CMU Bright';-inkscape-font-specification:'CMU Bright'" /><flowPara
+           id="flowPara22-7-7"
+           style="font-size:18.66666603px;line-height:26.66666794px" /></flowRoot>    </g>
+    <g
+       id="g4173"
+       transform="translate(-13.3098,0.54621683)">
+      <rect
+         y="199.79373"
+         x="114.21202"
+         height="25.817833"
+         width="82.071838"
+         id="rect101-4-1-0"
+         style="opacity:0.61799999;fill:#afafe9;fill-opacity:0.31372549;stroke:#000000;stroke-width:0.18521257;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+      <flowRoot
+         transform="matrix(0.26458333,0,0,0.26458333,109.01646,192.6544)"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.66666603px;line-height:26.66666794px;font-family:Lato;-inkscape-font-specification:Lato;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         id="flowRoot10-7-3-9"
+         xml:space="preserve"><flowRegion
+           style="font-size:18.66666603px;line-height:26.66666794px"
+           id="flowRegion12-2-6-3"><rect
+             style="font-size:18.66666603px;line-height:26.66666794px"
+             y="36.342838"
+             x="28.571428"
+             height="159.74979"
+             width="327.35464"
+             id="rect14-1-7-6" /></flowRegion><flowPara
+           id="flowPara54-3-5-0"
+           style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:24px;line-height:0px;font-family:'CMU Bright';-inkscape-font-specification:'CMU Bright Semi-Bold'">Gaussian Process Emulator</flowPara><flowPara
+           id="flowPara221-1"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21.33333397px;line-height:0px;font-family:'CMU Bright';-inkscape-font-specification:'CMU Bright'">   ▪ nonparametric interpolation</flowPara><flowPara
+           id="flowPara277"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21.33333397px;line-height:0px;font-family:'CMU Bright';-inkscape-font-specification:'CMU Bright'">   ▪ fast surrogate full model</flowPara><flowPara
+           id="flowPara275"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:24.00000191px;line-height:0px;font-family:'CMU Bright';-inkscape-font-specification:'CMU Bright'" /><flowPara
+           id="flowPara4651-2-8"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:24.00000191px;line-height:0px;font-family:'CMU Bright';-inkscape-font-specification:'CMU Bright'" /><flowPara
+           id="flowPara22-7-7-7"
+           style="font-size:18.66666603px;line-height:26.66666794px" /></flowRoot>    </g>
+    <g
+       id="g4135"
+       transform="translate(-5.9797506,-1.5875)">
+      <rect
+         y="241.45935"
+         x="6.0734015"
+         height="25.815744"
+         width="83.940636"
+         id="rect101-4-1-0-9"
+         style="opacity:0.61799999;fill:#afafe9;fill-opacity:0.5073314;stroke:#000000;stroke-width:0.18730178;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+      <flowRoot
+         transform="matrix(0.26458333,0,0,0.26458333,0.87677513,234.3189)"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.66666603px;line-height:26.66666794px;font-family:Lato;-inkscape-font-specification:Lato;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         id="flowRoot10-7-3-9-2"
+         xml:space="preserve"><flowRegion
+           style="font-size:18.66666603px;line-height:26.66666794px"
+           id="flowRegion12-2-6-3-0"><rect
+             style="font-size:18.66666603px;line-height:26.66666794px"
+             y="36.342838"
+             x="28.571428"
+             height="159.74979"
+             width="327.35464"
+             id="rect14-1-7-6-2" /></flowRegion><flowPara
+           id="flowPara54-3-5-0-3"
+           style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:24px;line-height:0px;font-family:'CMU Bright';-inkscape-font-specification:'CMU Bright Semi-Bold'">Markov chain Monte Carlo</flowPara><flowPara
+           id="flowPara277-5"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21.33333397px;line-height:0px;font-family:'CMU Bright';-inkscape-font-specification:'CMU Bright'">   ▪ random walk through param</flowPara><flowPara
+           id="flowPara323"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21.33333397px;line-height:0px;font-family:'CMU Bright';-inkscape-font-specification:'CMU Bright'">    space, weighted by posterior</flowPara><flowPara
+           id="flowPara275-9"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:24.00000191px;line-height:0px;font-family:'CMU Bright';-inkscape-font-specification:'CMU Bright'" /><flowPara
+           id="flowPara4651-2-8-2"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:24.00000191px;line-height:0px;font-family:'CMU Bright';-inkscape-font-specification:'CMU Bright'" /><flowPara
+           id="flowPara22-7-7-7-2"
+           style="font-size:18.66666603px;line-height:26.66666794px" /></flowRoot>    </g>
+    <g
+       id="g4146"
+       transform="translate(-6.9235689,3.9190629)">
+      <rect
+         y="274.50668"
+         x="7.0024719"
+         height="18.495331"
+         width="83.168327"
+         id="rect101-4-1-0-9-8"
+         style="opacity:0.61799999;fill:#afafe9;fill-opacity:0.5073314;stroke:#000000;stroke-width:0.15780598;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+      <flowRoot
+         transform="matrix(0.26458333,0,0,0.26458333,1.8205931,267.38105)"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.66666603px;line-height:26.66666794px;font-family:Lato;-inkscape-font-specification:Lato;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         id="flowRoot10-7-3-9-2-9"
+         xml:space="preserve"><flowRegion
+           style="font-size:18.66666603px;line-height:26.66666794px"
+           id="flowRegion12-2-6-3-0-7"><rect
+             style="font-size:18.66666603px;line-height:26.66666794px"
+             y="36.342838"
+             x="28.571428"
+             height="159.74979"
+             width="327.35464"
+             id="rect14-1-7-6-2-3" /></flowRegion><flowPara
+           id="flowPara54-3-5-0-3-6"
+           style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:24px;line-height:0px;font-family:'CMU Bright';-inkscape-font-specification:'CMU Bright Semi-Bold'">Bayes' Theorem</flowPara><flowPara
+           id="flowPara323-2"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21.33333397px;line-height:0px;font-family:'CMU Bright';-inkscape-font-specification:'CMU Bright'">   ▪ posterior ∝ likelihood × prior</flowPara><flowPara
+           id="flowPara275-9-9"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:24.00000191px;line-height:0px;font-family:'CMU Bright';-inkscape-font-specification:'CMU Bright'" /><flowPara
+           id="flowPara4651-2-8-2-3"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:24.00000191px;line-height:0px;font-family:'CMU Bright';-inkscape-font-specification:'CMU Bright'" /><flowPara
+           id="flowPara22-7-7-7-2-1"
+           style="font-size:18.66666603px;line-height:26.66666794px" /></flowRoot>    </g>
+    <g
+       id="g4185"
+       transform="translate(3.6550773,9.5250005)">
+      <rect
+         y="253.54108"
+         x="116.45098"
+         height="25.820404"
+         width="79.80262"
+         id="rect101-4-1-0-9-4"
+         style="opacity:0.61799999;fill:#e9afaf;fill-opacity:0.31372549;stroke:#000000;stroke-width:0.18264322;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+      <flowRoot
+         transform="matrix(0.26458333,0,0,0.26458333,111.25671,246.40309)"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.66666603px;line-height:26.66666794px;font-family:Lato;-inkscape-font-specification:Lato;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         id="flowRoot10-7-3-9-2-7"
+         xml:space="preserve"><flowRegion
+           style="font-size:18.66666603px;line-height:26.66666794px"
+           id="flowRegion12-2-6-3-0-8"><rect
+             style="font-size:18.66666603px;line-height:26.66666794px"
+             y="36.342838"
+             x="28.571428"
+             height="159.74979"
+             width="327.35464"
+             id="rect14-1-7-6-2-4" /></flowRegion><flowPara
+           id="flowPara54-3-5-0-3-5"
+           style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:24px;line-height:0px;font-family:'CMU Bright';-inkscape-font-specification:'CMU Bright Semi-Bold'">Posterior Distribution</flowPara><flowPara
+           id="flowPara323-3"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21.33333397px;line-height:0px;font-family:'CMU Bright';-inkscape-font-specification:'CMU Bright'">   ▪ prob distribution for true</flowPara><flowPara
+           id="flowPara4098"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21.33333397px;line-height:0px;font-family:'CMU Bright';-inkscape-font-specification:'CMU Bright'">    values of model parameters</flowPara><flowPara
+           id="flowPara275-9-6"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:24.00000191px;line-height:0px;font-family:'CMU Bright';-inkscape-font-specification:'CMU Bright'" /><flowPara
+           id="flowPara4651-2-8-2-1"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:24.00000191px;line-height:0px;font-family:'CMU Bright';-inkscape-font-specification:'CMU Bright'" /><flowPara
+           id="flowPara22-7-7-7-2-0"
+           style="font-size:18.66666603px;line-height:26.66666794px" /></flowRoot>    </g>
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.47951087;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#TriangleOutL)"
+       d="m 60.536547,163.63249 c 17.534965,0 35.069678,0 52.604163,0"
+       id="path4187"
+       inkscape:connector-curvature="0"
+       inkscape:path-effect="#path-effect4189"
+       inkscape:original-d="m 60.536547,163.63249 c 17.534965,-2.6e-4 35.069678,-2.6e-4 52.604163,0" />
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot5700"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.5px;line-height:25px;font-family:Lato;-inkscape-font-specification:Lato;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       transform="matrix(0.26458333,0,0,0.26458333,0,146.99998)"><flowRegion
+         id="flowRegion5702"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Lato;-inkscape-font-specification:Lato"><rect
+           id="rect5704"
+           width="146.97719"
+           height="22.728432"
+           x="236.37569"
+           y="28.517832"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Lato;-inkscape-font-specification:Lato" /></flowRegion><flowPara
+         id="flowPara5706"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.66666698px;font-family:Lato;-inkscape-font-specification:Lato">calc events on Latin hypercube</flowPara></flowRoot>    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.30729151px;line-height:6.61458302px;font-family:'CMU Serif Extra';-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="69.356438"
+       y="160.69252"
+       id="text5710"><tspan
+         sodipodi:role="line"
+         id="tspan5708"
+         x="69.356438"
+         y="164.94196"
+         style="stroke-width:0.26458332px" /></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.30729151px;line-height:6.61458302px;font-family:'CMU Serif Extra';-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="60.00201"
+       y="157.61893"
+       id="text5714"><tspan
+         sodipodi:role="line"
+         x="60.00201"
+         y="157.61893"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;font-family:Lato;-inkscape-font-specification:Lato;stroke-width:0.26458332px"
+         id="tspan5716">calc events on latin hypercube</tspan></text>
+    <path
+       style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 73.900024,213.51584 H 96.217027"
+       id="path109"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.51441288;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker958)"
+       d="m 86.676296,251.83143 h 75.251454 v 5.21176"
+       id="path948"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker1000)"
+       d="m 40.443451,276.36248 v -5.48065"
+       id="path990"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none;marker-end:url(#marker1046)"
+       d="m 84.855652,213.46724 v 17.76488 H 39.6875 l 0,4.53572"
+       id="path1104"
+       inkscape:connector-curvature="0" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.30729175px;line-height:6.61458349px;font-family:'CMU Serif Extra';-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="86.761528"
+       y="247.96292"
+       id="text5714-3"><tspan
+         sodipodi:role="line"
+         x="86.761528"
+         y="247.96292"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;font-family:Lato;-inkscape-font-specification:Lato;stroke-width:0.26458332px"
+         id="tspan5716-6">after many steps, MCMC equilibriates to</tspan></text>
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.33817407;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker1422)"
+       d="m 162.15178,187.99166 v 8.12649"
+       id="path1412"
+       inkscape:connector-curvature="0" />
+  </g>
+</svg>

@@ -1,7 +1,2 @@
-data
+fig/data
 build
-*.pdf
-*.svg
-*.eps
-*.png
-*.jpg
